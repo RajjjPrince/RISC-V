@@ -1,1 +1,88 @@
+Case Problem 1:-
+Write an algorithm to determine the factorial of a number n.
+
+Example 1
+Input: n = 4
+Output: 24
+Example 2
+Input: n = 5
+Output: 120
+
+Factorial of a Number:
+
+The factorial of a number 𝑛 is the product of all positive integers less than or equal to 𝑛. It is denoted by 𝑛! and is used in various fields such as mathematics, statistics, and computer science.
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+    	C Code Implementation for Factorial
+---------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+	int n = 5;
+	int factorial = 1;
+while(n > 0)
+	{
+    	factorial *= n; 
+    	n--;
+	}
+
+	printf("Factorial: %d", factorial);
+
+	return 0;
+}
+
+---------------------------------------------------------------------------------------------------------------------
+    	Assembly Code (Risc-V) Implement for Factorial
+---------------------------------------------------------------------------------------------------------------------
+.text
+main:
+addi x5,x0,4
+addi x6,x0,1
+loop: mul x6,x6,x5
+	addi x5,x5,-1
+	blt x0,x5,loop
+	 
+--------------------------------------------------------------------------------------------------------------------
+    	OPCODE(in hex + disassembled)
+--------------------------------------------------------------------------------------------------------------------
+00000000 <main>:
+	0:    	00400293    	addi x5 x0 4
+	4:    	00100313    	addi x6 x0 1
+
+00000008 <loop>:
+	8:    	02530333    	mul x6 x6 x5
+	c:    	fff28293    	addi x5 x5 -1
+	10:    	fe504ce3    	blt x0 x5 -8 <loop>
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+    	OPCODE(in binary)
+--------------------------------------------------------------------------------------------------------------------
+
+
+00000000 <main>:
+	0:    	00400293    	00000000010000000000001010010011
+	4:    	00100313    	00000000000100000000001100010011
+
+00000008 <loop>:
+	8:    	02530333    	00000010010100110000001100110011
+	c:    	fff28293    	11111111111100101000001010010011
+	10:    	fe504ce3    	11111110010100000100110011100011
+
+
+Case Problem 2 :-
+Write an algorithm to determine if a number n is happy.
+Example 1
+Input: n = 19
+Output: true
+Example 2
+Input: n = 2
+Output: false
+
 
