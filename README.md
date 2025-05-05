@@ -82,7 +82,7 @@ Edit
 
 🙋‍♂️ Author
 Prince Raj
-GitHub: @princerajjj1212
+GitHub: @RajjjPrince
 
 
 
