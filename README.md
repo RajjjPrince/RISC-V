@@ -31,14 +31,38 @@ It is designed, synthesized, and simulated in **Verilog HDL** using **Xilinx Viv
 
 ---
 
+
+---
+
 ## 🧪 Testbench & Simulation
+
+The Verilog **testbench** verifies the processor by:
+- Initializing instruction memory with machine codes  
+- Monitoring register and memory outputs  
+- Checking correctness of executed instructions  
+
+### 🧾 Example Test Program (Machine Code)
 
 ```verilog
 mem[0] = 32'h00000013; // li x1, 0
 mem[1] = 32'h00000113; // li x2, 0
 mem[2] = 32'h002081b3; // add x3, x1, x2
 
+
 ```
 📊 Block Diagram
 <p align="center"> <img src="Screenshots/Screenshot 2025-10-30 135937.png" alt="Block Diagram" width="100%"> </p>
 
+
+📷 Simulation Output
+
+<p align="center"> <img src="Screenshots/Screenshot 2025-10-30 142436.png" alt="Block Diagram" width="100%"> </p>
+
+## 🧮 Tools & Environment
+
+| Tool                   | Version         | Usage                             |
+| ---------------------- | --------------- | --------------------------------- |
+| **Xilinx Vivado**      | 2023.x or later | Design, synthesis, and simulation |
+| **Verilog HDL**        | IEEE-1364       | Processor design                  |
+| **ModelSim / GTKWave** | Optional        | Waveform visualization            |
+| **GitHub**             | —               | Version control & documentation   |
