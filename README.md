@@ -38,4 +38,7 @@ mem[0] = 32'h00000013; // li x1, 0
 mem[1] = 32'h00000113; // li x2, 0
 mem[2] = 32'h002081b3; // add x3, x1, x2
 
+```
+📊 Block Diagram
+<p align="center"> <img src="Screenshots/Screenshot 2025-10-30 135937.png" alt="Block Diagram" width="100%"> </p>
 
