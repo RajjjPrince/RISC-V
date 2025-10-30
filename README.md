@@ -71,8 +71,8 @@ mem[1] = 32'h00000113; // li x2, 0
 mem[2] = 32'h002081b3; // add x3, x1, x2
 
 ## 📊 Block Diagram
+![Block Diagram](./screenshots/Screenshot_2025-10-30_135937.png)
 
-> 🖼️ *Add your processor architecture image below*
 
 ---
 
