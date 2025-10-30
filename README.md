@@ -66,3 +66,35 @@ mem[2] = 32'h002081b3; // add x3, x1, x2
 | **Verilog HDL**        | IEEE-1364       | Processor design                  |
 | **ModelSim / GTKWave** | Optional        | Waveform visualization            |
 | **GitHub**             | —               | Version control & documentation   |
+
+## 🚀 How to Run
+
+```# 1. Clone the repository
+git clone https://github.com/<your-username>/riscv-processor.git
+cd riscv-processor
+
+# 2. Open the project in Xilinx Vivado
+# 3. Add all .v source files and the testbench
+# 4. Run behavioral simulation
+# 5. View results in the waveform viewer
+```
+## 📂 Project Structure
+```riscv-processor/
+│
+├── src/                     # Verilog source files
+│   ├── alu.v
+│   ├── control_unit.v
+│   ├── register_file.v
+│   └── ...
+│
+├── sim/                     # Testbench and simulation files
+│   └── tb_riscv.v
+│
+├── screenshots/              # Add block diagrams & simulation results here
+│   ├── block_diagram.png
+│   └── simulation_result.png
+│
+├── README.md
+└── LICENSE (optional)
+```
+
