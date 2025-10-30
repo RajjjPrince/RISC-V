@@ -91,10 +91,42 @@ cd riscv-processor
 │   └── tb_riscv.v
 │
 ├── screenshots/              # Add block diagrams & simulation results here
-│   ├── block_diagram.png
-│   └── simulation_result.png
+│   ├── screenshots
 │
 ├── README.md
 └── LICENSE (optional)
 ```
 
+## 📈 Results
+
+✅ Successfully implemented and simulated 32-bit RISC-V processor
+
+🧠 Verified arithmetic, logic, and branch instruction correctness
+
+⚙️ Generated stable timing and control waveforms
+
+💻 Ready for FPGA synthesis and extension with pipelined architecture
+
+## 🧭 Future Work
+
+⏩ Add 5-stage or 7-stage pipelining
+
+⚙️ Implement hazard detection and forwarding unit
+
+🧠 Integrate instruction & data cache
+
+🔌 Deploy on FPGA (e.g., Xilinx Artix-7)
+
+## 👨‍💻 Author
+
+
+---
+
+## 👨‍💻 Author
+
+**Prince Raj**  
+📧 [princerajsonepur@gmail.com](mailto:princerajsonepur@gmail.com)
+
+🔗 **Connect With Me:**
+- [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/prince-raj-966ba3269//)
+- [GitHub](https://github.com/https://github.com/RajjjPrince/RISC-V)
